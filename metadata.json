@@ -1,0 +1,6 @@
+{
+  "name": "Manajemen Al Faraby FC",
+  "description": "Aplikasi Manajemen Tim Sepakbola Al Faraby FC",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

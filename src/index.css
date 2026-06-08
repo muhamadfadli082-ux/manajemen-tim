@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@550;600;750&family=JetBrains+Mono:wght@400;550;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Premium Sophisticated Dark Color Space */
+  --color-slate-950: #0A0B0E; /* Deep Matte Background */
+  --color-slate-900: #111319; /* High-quality glass container base */
+  --color-slate-850: #161821; /* Elevated block/table fill */
+  --color-slate-800: #1D212C; /* Fine dark border tint */
+  --color-slate-700: #2A303F; /* Highlight elements/hover state outer boundaries */
+  
+  /* Accent Refinement: Map amber/gold components to Sophisticated Cyan & Cyber Golden Metallic */
+  --color-amber-500: #02E2EE; /* Bright neon cyan/aqua */
+  --color-amber-400: #38BDF8; /* Ice blue light */
+  --color-amber-600: #0891B2; /* Rich teal-cyan */
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #0A0B0E;
+  color: #E2E8F0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Scrollbars to keep the deep black premium aesthetic integrated */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0B0E;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1D212C;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #02E2EE;
+}
+
+@layer utilities {
+  .font-display {
+    font-family: "Space Grotesk", sans-serif;
+  }
+}
+
